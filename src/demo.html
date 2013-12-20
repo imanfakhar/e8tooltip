@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>jQuery tooltip</title>
+	<link rel="stylesheet" href="css/demo.css">
+	<link rel="stylesheet" href="css/jquery.e8tooltip.css">
+</head>
+<body>
+
+<section class="container">
+	<h1>e8tooltip</h1>
+	<h2>A simple and lightweight tooltip plugin.</h2>
+	<article>
+		<h3>Demos</h3>
+		<h4>top</h4>
+		<p>Lorem ipsum dolor <a href="#" class="tooltip tt-top" title="I am a tooltip!">sit amet,</a> consectetur adipisicing elit.</p>
+		<h4>bottom</h4>
+		<p>Lorem ipsum dolor <a href="#" class="tooltip tt-bottom" title="I am a tooltip!">sit amet,</a> consectetur adipisicing elit.</p>
+	</article>
+</section>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/jquery.e8tooltip.js"></script>
+<script>
+$(function() {
+	$('.tooltip').e8tooltip();
+});
+</script>
+</body>
+</html>

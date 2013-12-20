@@ -1,0 +1,8 @@
+/* jQuery e8tooltip plugin
+*	Version 0.2
+* Author: Martin Szymanski
+* Author's website: http://www.elfacht.com
+* GitHub:
+* License: CC-BY-SA https://creativecommons.org/licenses/by-sa/3.0/
+*/
+.tooltip-wrapper{cursor:default;text-align:left;text-transform:none;z-index:30}.tooltip-wrapper.bottom,.tooltip-wrapper.top{left:50%}.tooltip-inner{margin-top:16px;padding:20px}.tooltip-arrow{display:block;height:15px;margin-left:-8px;position:absolute;width:16px;z-index:-1;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg)}.tooltip-wrapper.bottom .tooltip-arrow,.tooltip-wrapper.top .tooltip-arrow{left:50%}.tooltip-wrapper.top .tooltip-arrow{bottom:-8px}.tooltip-wrapper.bottom .tooltip-arrow{top:8px}

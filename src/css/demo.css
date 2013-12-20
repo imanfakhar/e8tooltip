@@ -1,0 +1,22 @@
+html, body { height: 100%; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+	background: #eaeaea;
+	font-family: Helvetica, Arial sans-serif;
+	font-size: 14px;
+	line-height: 1.4;
+	-webkit-text-size-adjust: none;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+.container {
+	background: #fff;
+	margin: 4em auto;
+	max-width: 800px;
+	padding: 40px;
+}
